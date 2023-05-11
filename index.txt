@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IRCTC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/db26b281c6.js" crossorigin="anonymous"></script>
+    
+  
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="./indian railways.jpg " width="70px" height="70px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fas fa-hamburger"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav m-auto my-2 my-lg-0">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#video">USER-GUIDE</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#enquiry">ENQUIRY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#calculator">CALCULATOR</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACT</a>
+            </li>
+          </ul>
+          <a class="navbar-brand" href="#"><img src="./irctc.jpg" width="70px" height="70px"></a>
+          <form class="d-flex">
+            <input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+      </nav>
+      <section class="main">
+        <div class="container py-5">
+          <div class="row py-4">
+            <div class="col-lg-7 pt-5 text-center">
+              <h1 class="pt-5">INDIAN RAILWAYS</h1>
+              <h6 class="pt-5">Safety | Security |Punctuality</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="new">
+        <div class="container py-5">
+          <div class="row pt-5">
+            <div class="col-lg m-auto">
+              <div class="row text-center">
+                <div class="col-lg-3">
+                    <div class="card">
+                  <img src="./train1.jpg"class="img-luid" alt="">&nbsp;
+                </div>
+                  &nbsp;<h6>CHARTER TRAIN</h6>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                    <img src="./plane.jpg"class="img-luid" alt="">&nbsp;
+                    </div>
+                   &nbsp; <h6>FLIGHTS</h6><br><br><br>
+                </div>
+                  <div class="col-lg-3">
+                    <div class="card">
+                    <img src="./hotel.jpg"class="img-luid" alt="">&nbsp;
+                </div>
+                    &nbsp;<h6>HOTELS</h6>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="card">
+                    <img src="./hills.jpg"class="img-luid" alt="">&nbsp;
+                    </div>
+                    &nbsp;<h6>HILL RAILWAYS</h6>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="card">
+                    <img src="./graph.jpg"class="img-luid" alt="">&nbsp;
+                    </div>
+                    &nbsp;<h6>RAIL DHRISHTI</h6>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="card">
+                    <img src="./gallery.jpg"class="img-luid" alt="">&nbsp;
+                    </div>
+                    &nbsp;<h6>GALLERY</h6>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="card">
+                    <img src="./catering.jpg"class="img-luid" alt="">&nbsp;
+                    </div>
+                    &nbsp;<h6>E-CATERING</h6>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="card">
+                    <img src="./bus.jpg"class="img-luid" alt="">&nbsp;
+                    </div>
+                   &nbsp; <h6>BUS</h6>
+                  </div>
+        </div>
+      </section>
+      <section class="next py-5">
+        <div id="video">
+        <div class="row py-5">
+            <div class="col-lg-2 m-auto video-center">
+                <center><video src="./v1.mp4 " controls width="250px" height="500px"></video></center></div>
+      </section>
+      <section class="about">
+        <div class="container py-5">
+          <div class="row py-5">
+            <div class="col-lg-8 m-auto text-center">
+              <h1 style="color: darkblue;">HOLIDAYS</h1>
+              
+            </div>
+            </div>
+            <div class="row">
+              
+              <div class="col-lg-3">
+                <img src="./Kashmir.jpg" class="img-fluid mb-3" alt="" height="250px" width="250px">
+                <h5 style="color: blue;">DOMESTIC AIR PACKAGES</h5>
+                <p style="color: black;">Be it the spiritual devotee seeking blessings of Tirupati, Shirdi or Mata Vaishno Devi or the leisure traveller wanting to relish the Blue mountains of North East, Sand-dunes of Rajasthan, Hamlets of Ladakh, Wonders of Himalayas, Serene lakes or Picturesque Islands, IRCTC has it all. Discover India through IRCTC!</p>
+              </div>
+              <div class="col-lg-3">
+                <img src="./maharaja express.jpg" class="img-fluid mb-3" alt="" height="450px" width="250px">
+                <h5 style="color: blue;">MAHARAJA EXPRESS</h5>
+                <p style="color: black;">Redefining Royalty, Luxury and Comfort, Maharajas' express takes you on a sojourn to the era of bygone stately splendour of princely states. Sylvan furnishings, elegant ambience and modern amenities are amalgamated for an “Experience Unsurpassed”. It has been a winner of “World’s Leading Luxury train” by World Travel Awards consecutively for last six years.</p>
+              </div>
+              <div class="col-lg-3">
+                <img src="./Manali.jpg" class="img-fluid mb-3" alt="" height="250px" width="250px">
+                <h5 style="color: blue;">RAIL TOUR PACKAGES</h5>
+                <p style="color: black;">IRCTC offers Exclusive Rail tour packages with confirmed train tickets, sight-seeing and meals for enchanting Nilgiri Mountains, Darjeeling, Kullu Manali, Kashmir, Gangtok or divine tours of Mata Vaishno Devi, Rameswaram, Madurai, Shirdi, Tirupati etc. Holiday packages/ Land packages to these destinations are also available.</p>
+              </div>
+              <div class="col-lg-3">
+                <img src="./Thailand.jpg" class="img-fluid mb-3" alt="" height="250px" width="250px">
+                <h5 style="color: blue;">INTERNATIONAL PACKAGES</h5>
+                <p style="color:black;">Best deals in International Holiday packages, handpicked by IRCTC, for Thailand, Dubai, Sri Lanka, Hong Kong, China, Macau, Bhutan, Nepal, U.K., Europe, USA, Australia etc. The packages are inclusive of sightseeing, meals, visa charges and overseas medical insurance to give you a hassle-free and memorable experience.</p>
+              </div>
+          </div>
+        
+        </div>
+      
+      </section>
+      <div id="contact">
+    <section class="form">
+      <form onsubmit="return fun()" name="f1" style="margin-left: 450px; "method="get" >
+        <div id="opo">
+        <div id="shj">
+        <h1 style="color:aliceblue">START YOUR BOOKING</h1>
+          <div class="form-group">      
+          <label for="ui">Name</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          <input type="text" class="io" required id="unam" placeholder="user name" name="unam" onkeyup="success()" pattern="[a-zA-Z]{20}"><br>
+          </div>
+          <div> 
+          <label>DOB  </label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          <input type="date" class="io" name="udob" pattern="\d{4}-\d{2}-\d{2}" />
+          </div>
+          <div>
+          <label>Phoneno</label>&nbsp&nbsp
+          <input type="number" id="io" placeholder="+91" maxlength="2" pattern="[0-9]{10}" style="width:70px"><input type="number" maxlength="10" class="io" name="unum" pattern="{10}" >
+          </div>
+          <div class="form-group"> 
+          <label>Age</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          <input type="number"  class="io" placeholder="user age" required pattern="[0-9]" name="uage" id="uage" disabled><br>
+          </div>
+          <div> 
+          <label>Gender</label>&nbsp&nbsp&nbsp&nbsp
+          <input type="radio" placeholder="set gender" name="g" value="MALE">MALE
+          <input type="radio"placeholder="set gender" name="g" value="FEMALE">FEMALE
+          <input type="radio" placeholder="set gender" name="g" value="OTHERS">OTHERS<br><br>
+          </div>
+          <div>
+            <label>Aadhar No</label>&nbsp
+            <input type="number" id="quantity" name="quantity" onkeyup="successs()" placeholder="Enter AadharNumber" required pattern="[0-9]" ><br>
+          </div>
+          <div>
+            <label>Email</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required disabled><br>
+          </div>
+          <div>
+            <label>Rollno</label>
+            <input type="text" class="form-control" id="rollno" name="rollno" pattern="[2]{1}[1]{1}[I]{1}[T]{1}[R]{1}[0-9]{3}" required><br>
+          </div>
+          
+          <center><h2><b>TRAVEL DETAIL</b> </h2></center>
+          <div> 
+              
+              <label>From</label>&nbsp&nbsp&nbsp
+              <select id="Departure">
+              <option>SELECT</option>
+              <option>Madurai</option>
+              <option>Chennai</option>
+              <option>Coimbatore</option>
+              <option>Katpadi</option>
+              <option>Salem</option>
+              <option>Erode</option>
+              <option>Dindigul</option>
+              <option>Karur</option>
+              <option>Nagercoil</option>
+              <option>Trichy</option>
+              <option>Tirunelveli</option>
+              </select>
+              <label>To</label>&nbsp
+              <select > 
+              <option>SELECT</option>
+              <option>Madurai</option>
+              <option>Chennai</option>
+              <option>Coimbatore</option>
+              <option>Katpadi</option>
+              <option>Salem</option>
+              <option>Erode</option>
+              <option>Dindigul</option>
+              <option>Karur</option>
+              <option>Nagercoil</option>
+              <option>Trichy</option>
+              <option>Tirunelveli</option>
+              </select>
+          </div>
+
+
+          <div class="io"> 
+          <label>CLASS</label>
+          <select >
+          <option>SELECT</option>
+          <option>EA</option>
+          <option>1A</option>
+          <option>EV</option>
+          <option>EC</option>
+          <option>2A</option>
+          <option>FC</option>
+          <option>3A</option>
+          <option>3E</option>
+          <option>VC</option>
+          <option>CC</option>
+          <option>SL</option>
+          <option>VS</option>
+          <option>2S</option>
+          </select><br><br>
+          <label>TYPE</label>
+          <select>
+          <option>SELECT</option>
+          <option>GENERAL</option>
+          <option>LADIES</option>
+          <option>LOWER BERTH/SR.CITIZEN</option>
+          <option>PERSON WITH DISABILITY</option>
+          <option>TATKAL</option>
+          <option>PREMIUM TATKAL</option>
+          </select><br><br>
+          <input type="checkbox" >Person with disability concession &nbsp &nbsp
+          <input type="checkbox" >Railway pass concession<br>
+          <input type="checkbox" >Flexible with Date &nbsp &nbsp
+          <input type="checkbox" >Train with Available Berth<br><br>
+          <input type="button" value="submit" onmouseenter="validateRollNumber()" onclick="fun()" id="rs" value="fun">
+          </div>
+</div>
+</div>
+</form>
+</div>
+      </section>
+      <section>
+        <div id="calculator">
+        <div id="xx">
+          <h2 id="xy">Please Click the below link to calculate the Platform ticket Price...</h2>
+          <center><a href="./calculator.html" id="xz" target="_blank">Click Me!!!</a></center>
+        </div>
+        </div>
+      </section>
+      
+ 
+<section class="news py-3">
+  <div id="enquiry">
+    <div class="container py-3">
+      <div class="row">
+        <div class="col-lg-9 mx-auto text-center " >
+          <h1 style="color: aliceblue;">FURTHER MORE..</h1>
+      </div>
+    
+        <div class="col-lg-11">
+          <div class="row">
+            <div class="col-lg-3 py-3">
+              <h5 class="pb-3">IRCTC TRAINS</h5>
+              <p style="color: aliceblue;">TRAVEL INSURANCE CLAIM PROCESS</p>
+              <p style="color: aliceblue;">TICKET CANCELLATION RULES</p>
+              <p style="color: aliceblue;">SALIENT FEATURES</p>
+            </div>
+            <div class="col-lg-3 py-3">
+              <h5 class="pb-3">HOW TO</h5>
+              <p style="color: aliceblue;">IRCTC OFFICIAL APP</p>
+              <p style="color: aliceblue;">ADVERTISE WITH US</p>
+              <p style="color: aliceblue;">REFUND RULES</p>
+            </div>
+ <div class="col-lg-3 py-3">
+              <h5 class="pb-3">IRCTC E - WALLET</h5>
+              <p style="color: aliceblue;">IRCTC LOYALTY PROGRAM</p> 
+              <p style="color: aliceblue;">iPAY GATEWAY</p>
+              <p style="color: aliceblue;">IRCTC ZONE</p>
+            </div>
+            <div class="col-lg-3 py-4">
+              <h5 class="pb-3">SOCIAL MEDIA</h5>
+              <span><i class="fa-brands fa-facebook"></i></span>
+              <span><i class="fa-brands fa-instagram"></i></span>
+              <span><i class="fa-brands fa-twitter"></i></span>
+              <span><i class="fa-brands fa-google"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <p class="text-center">Copyright @2023 All rights reserved|This template is made for Laboratory</p>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+     <script >
+      function fun(){
+       var usname=document.f1.unam.value;
+       var usdob=document.f1.udob.value;
+       var usphone=document.f1.unum.value;
+       var usage=document.f1.uage.value;
+       var aadhar=document.f1.quantity.value;
+       var email=document.f1.email.value;
+       var rno=document.f1.rollno.value;
+       var errors=[]
+              if(usname=="")
+                     errors[errors.length]= "Name must be filled out";
+              if(usphone.length>10||usphone.length<10)
+                     errors[errors.length]= "Phone number must be of length 10";
+              if(usage=="")
+                     errors[errors.length]= "Age must be filled out";
+              if(aadhar=="")
+                     errors[errors.length]= "Aadhar Number must be filled out";       
+              if(email=="")
+                     errors[errors.length]= "Email must be filled out";
+              if (!email.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)) 
+                     errors[errors.length]="Enter the valid Email";
+              if(rno=="")
+                     errors[errors.length]="Rollno must be filled out";       
+                     
+                                  
+              if(errors.length>0){
+              reportErrors(errors); }
+              else{
+                     alert("Registration successfull!!!");
+              }
+      }
+              function reportErrors(errors){
+                     var msg = "Please Enter Valid Data!\n";
+                     for (var i = 0; i<errors.length; i++) {
+                       var numError = i + 1;
+                       msg += "\n" + numError + ". " + errors[i];
+                       }
+                       alert(msg);
+                   }
+               function success() 
+               {
+                     if(document.getElementById("unam").value==="") {
+                            document.getElementById('uage').disabled = true;
+                        } else {
+                            document.getElementById('uage').disabled = false;
+                        }
+                    }
+               function successs() 
+               {
+                     if(document.getElementById("quantity").value==="") {
+                            document.getElementById('email').disabled = true;
+                        } else {
+                            document.getElementById('email').disabled = false;
+                        }
+                    }     
+                
+              
+     </script>
+    
+ </html>

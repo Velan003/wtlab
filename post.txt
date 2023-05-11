@@ -1,0 +1,30 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>post method</title>
+</head>
+
+<body>
+<center>
+    <h2> LOGIN FORM</h2>
+    <br><br>
+    <form action="http://localhost:4000/" method="post">
+        First name:<input type="text" id="fname" name="fname"><br><br>
+        Last name:<input type="text" id="lname" name="lname"><br><br>
+        Email Id :&nbsp;&nbsp;&nbsp;<input type="text" name="email"><br><br>
+        Password: <input type="password" name="pwd" value=""><br><br>
+        Username :<input type="text" name="username" value="" required><br><br>
+        <input type="submit" name="login" value="login">
+    </form></center>
+</body>
+</html>
+<style>
+    body{
+        background-image:url(https://wallpapercave.com/wp/wp9764032.png) ;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+</style>

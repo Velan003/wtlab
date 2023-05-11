@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    
+
+    <style>
+        *{
+            
+        font-family:cursive;
+    }
+        body {
+          background-image: url('d2.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        .form-center {
+  display:flex;
+  justify-content: center;
+}
+        
+        </style>
+        
+    
+</head>
+<body>
+    <br>
+    <br>
+    <form onsubmit="return validateForm()">
+        <div class="form-center">
+        <fieldset>
+            <legend ><b>CREATE ACCOUNT</b></legend>
+                <label for="fname" pattern=[a-zA-Z]{3,}  AUTOFOCUS><b>First Name:</b></label>
+                   <input type="text" id="fname" placeholder ="Ex: Praneeth" required title="only first name, no initial">
+                       <br><br>
+                <label for="lname" pattern=[a-zA-Z]{3,}><b>Last Name:</b></label>
+                    <input type="text" id="lname" placeholder ="Ex: B" title="only intial" required>
+                           <br><br> 
+                
+                    <label for="rollNumber">Roll Number: </label><input type="text" id="rollNumber" name="rollNumber"><br>
+                      
+                <label for="phn"><b>Mobile Number:</b></label>
+                    <input type="text" name="phn"  value="+91" size="1" disabled>   
+                    <input type="text" name="phn" size="10" placeholder="EX: 9345693282" pattern=[0-9]{10} title="in format 9345693282" required>
+                        <br><br>
+                <label for="email"><b>Email:</b></label>
+                    <input type="text" id="email" name="email" placeholder="Ex: pran.it@kongu.edu" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a Email id in format:pran.it@kongu.edu !" required>
+                        <br><br>
+                <label for="pwd"><b>Password:</b></label>
+                    <input type="password" id="pwd" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one  number and one uppercase  and lowercase letter, and at least 8 or more characters" placeholder="Enter your password" required>
+                         <br><br>
+                
+                <b><label for="Gender">GENDER:</label></b><br>
+                <input type="radio" name="Gender">Male
+                <input type="radio" name="Gender">Female
+                <br><br>
+        
+                <b><label for="date">DOB:</label></b>
+                <input type="date" id="date" name="Date" required><br><br>
+        
+                <label for="add"><b>ADDRESS:</b></label>
+                <textarea id="add" rows="1" cols="20" placeholder="Enter your address" required></textarea>
+                <br><br>
+                
+            </form>
+        
+            <input type="submit" value="Create Account" onmouseenter="validateRollNumber()" onmouseover="validateForm()">
+            <a href="signinn.html"><input type="button" value="Back"></a><br>
+
+            
+        </fieldset>
+    
+    </form>
+    <script>
+		function validateForm() {
+			var fname = document.getElementById("fname").value;
+            var lname = document.getElementById("lname").value;
+			var email = document.getElementById("email").value;
+			var pwd = document.getElementById("pwd").value;
+			var add = document.getElementById("add").value;
+
+
+			if (fname == "") {
+				alert("Please enter a firstname.");
+				return false;
+			}
+
+            if (lname == "") {
+				alert("Please enter a lname.");
+				return false;
+			}
+            
+
+			if (email == "") {
+				alert("Please enter an email address.");
+				return false;
+			}
+
+			if (pwd == "") {
+				alert("Please enter a password.");
+				return false;
+			}
+
+			if (add == "") {
+				alert("Please confirm your address.");
+				return false;
+			}
+
+			if (fname == lname) {
+				alert("Firstname and lastname matches.");
+				return false;
+			}
+
+			alert("Account created successfully!");
+			return true;
+		}
+
+        function validateRollNumber() {
+        var rollNumber = document.getElementById("rollNumber").value;
+        var pattern = /^21ITR\d{3}$/;
+        if (pattern.test(rollNumber)) {
+          alert("Roll number is valid!");
+          return true;
+        } else {
+          alert("Invalid roll number! Roll number should be in the format 21ITRXXX");
+          return false;
+        }
+      }
+
+
+	</script>
+</body>
+</html>

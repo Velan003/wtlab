@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Delete Form Data</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		.container{
+			margin-top: 50px;
+			background-color: #f2f2f2;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px #888888;
+		}
+		h2{
+			text-align: center;
+			margin-bottom: 10px;
+		}
+		form{
+			margin-left: 10%;
+			margin-right: 10%;
+		}
+		@media (max-width: 576px) {
+			form{
+				margin-left: 100px;
+				margin-right: 100px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container col-7">
+		<h2>DELETE FORM DATA</h2>
+		<form name="myForm" action="http://localhost:4012/" method="post" onsubmit="return validateForm()">
+			
+			<div class="form-group">
+				<label for="email">Email Id:</label>
+				<input type="text" class="form-control" id="email" name="email" value="" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+			</div>
+			<div class="form-group">
+				<label for="pwd">Password:</label>
+				<input type="password" class="form-control" id="pwd" name="pwd" value="" required>
+			</div>
+			
+			
+			<div class="form-group text-center">
+				<input type="button" onclick="updatedata()" class="btn btn-primary" name="delete" value="Delete Data">
+			</div>
+
+            
+            
+		</form>
+	</div>
+</body>
+</html>
+
+    
+   
+    <script>
+      function validateForm() {
+      
+        var email = document.forms["myForm"]["email"].value;
+        var pwd = document.forms["myForm"]["pwd"].value;
+        
+      
+        if (fname == "" || lname == "" || email == "" || pwd == "" || username == "") {
+          alert("All fields must be filled out");
+          return false;
+        }
+        var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
+          alert("Please enter a valid email address");
+          return false;
+        }
+        if (pwd.length < 6) {
+          alert("Password must be at least 6 characters long");
+          return false;
+        }
+        
+        return true;
+      }
+      
+      </script>
+  
+    <style>
+      body {
+        background-image:url(https://images.unsplash.com/uploads/1413387158190559d80f7/6108b580?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+    </style>
+    
